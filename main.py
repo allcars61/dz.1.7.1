@@ -27,10 +27,7 @@ class Mentor:
         self.courses_attached = []
 
 class Lecturer(Mentor):
-    def __init__(self, name, surname):
-        pass
+    pass
 
 class Reviewer(Mentor):
-    def __init__(self, name, surname):
-        pass
-
+    pass
