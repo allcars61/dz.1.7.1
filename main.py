@@ -8,6 +8,8 @@
 # Reviewer (эксперты, проверяющие домашние задания). Очевидно, имя, фамилия
 # и список закрепленных курсов логично реализовать на уровне родительского класса.
 # А чем же будут специфичны дочерние классы? Об этом в следующих заданиях.
+
+
 class Student:
     def __init__(self, name, surname, gender):
         self.name = name
@@ -26,13 +28,9 @@ class Mentor:
 
 class Lecturer(Mentor):
     def __init__(self, name, surname):
-        self.name = name
-        self.surname = surname
-        self.courses_attached = []
+        pass
 
-class Reviewer(Lecturer):
+class Reviewer(Mentor):
     def __init__(self, name, surname):
-        self.name = name
-        self.surname = surname
-        self.courses_attached = []
+        pass
 
